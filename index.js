@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node testing CICD in Azure Devops!\n'
+  const msg = 'Hello this for testing CI/CD using Azure Devops!\n'
   res.end(msg);
 });
 
